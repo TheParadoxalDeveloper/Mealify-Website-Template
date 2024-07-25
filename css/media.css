@@ -1,0 +1,1298 @@
+/* -------------------  MEDIA QUERY ------------------ */
+
+
+/* Media Query for Small Mobile Devices */
+@media (max-width: 321px) and (min-width:0px) {
+
+    .header-section {
+        height: 205vh;
+    }
+
+    .navbar-pages {
+        display: none;
+    }
+
+    .header-content .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-h1 {
+        margin-top: 50px;
+    }
+
+    .header-content-left p {
+        width: 100%;
+    }
+
+    .booking_btn {
+        padding: 15px 25px;
+    }
+
+    .header-buttons {
+        padding-top: 20px;
+    }
+
+    .btn1 {
+        width: 50%;
+    }
+
+    .btn2 {
+        width: 50%;
+        display: flex;
+        align-content: center;
+    }
+
+
+    .chef-cards-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0px;
+        flex-wrap: wrap;
+        row-gap: 50px;
+
+    }
+
+    .chef-card {
+        width: 100%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+        transition: var(--transition-duration);
+        overflow: hidden;
+    }
+
+    .header-h1 {
+        margin-top: 50px;
+    }
+
+    .gallery-column {
+        width: 100%;
+        padding-top: 20px;
+
+    }
+
+    .gallery-section .container {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .address {
+        width: 100%;
+    }
+
+    .phone {
+        width: 100%;
+    }
+
+    .address p {
+        width: 90%;
+    }
+
+    .phone p {
+        width: 100%;
+    }
+
+    .message-inputs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .top-inputs {
+        flex-wrap: wrap;
+    }
+
+    .name-input {
+
+        width: 100%;
+
+    }
+
+    .email-input {
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    .footer-section {
+        padding-bottom: 50px;
+    }
+
+    .left-footer {
+        width: 100%;
+        text-align: center;
+    }
+
+    .middle-footer {
+        width: 100%;
+        padding-top: 50px;
+
+
+    }
+
+    .right-footer {
+        width: 100%;
+        padding-top: 50px;
+
+    }
+
+    .footer-section .container {
+        flex-wrap: wrap;
+    }
+
+    .middle-newsletter {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .newsletter1 {
+        width: 100%;
+    }
+
+    .newsletter1 input {
+        width: 100%;
+        padding: 15px 0px 15px 15px;
+
+    }
+
+    .newsletter2 {
+        padding-top: 15px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .email-newsletter-btn {
+        padding: 10px 40px;
+        background-color: var(--accent-color);
+        border: none;
+        color: var(--main-color);
+    }
+
+    .middle-newsletter {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .newsletter1 {
+        width: 100%;
+    }
+
+    .newsletter1 input {
+        width: 100%;
+        padding: 15px 0px 15px 15px;
+
+    }
+
+    .newsletter2 {
+        padding-top: 15px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .email-newsletter-btn {
+        padding: 10px 40px;
+        background-color: var(--accent-color);
+        border: none;
+        color: var(--main-color);
+    }
+
+
+    .header-buttons {
+        
+        flex-wrap: wrap;
+        width: 100%;
+        padding-top: 20px;
+        row-gap: 25px;
+        align-content: center;
+    }
+    
+    
+    .btn1 {
+        width: 100%;
+    }
+    
+    
+    .btn2 {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .btn2:hover i {
+        color: var(--accent-color);
+    }
+    
+    .btn2:hover span {
+        color: var(--accent-color);
+    }
+
+}
+
+@media (max-width: 376px) and (min-width:322px) {
+
+    .header-section {
+        height: 155vh;
+    }
+
+    .navbar-pages {
+        display: none;
+    }
+
+    .header-content .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-h1 {
+        margin-top: 50px;
+    }
+
+    .header-content-left p {
+        width: 100%;
+    }
+
+    .booking_btn {
+        padding: 15px 25px;
+    }
+
+    .header-buttons {
+        padding-top: 20px;
+    }
+
+    .btn1 {
+        width: 50%;
+    }
+
+    .btn2 {
+        width: 50%;
+        display: flex;
+        align-content: center;
+    }
+
+
+    .chef-cards-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0px;
+        flex-wrap: wrap;
+        row-gap: 50px;
+
+    }
+
+    .chef-card {
+        width: 100%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+        transition: var(--transition-duration);
+        overflow: hidden;
+    }
+
+    .header-h1 {
+        margin-top: 50px;
+    }
+
+    .gallery-column {
+        width: 100%;
+        padding-top: 20px;
+
+    }
+
+    .gallery-section .container {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .address {
+        width: 100%;
+    }
+
+    .phone {
+        width: 100%;
+    }
+
+    .address p {
+        width: 90%;
+    }
+
+    .phone p {
+        width: 100%;
+    }
+
+    .message-inputs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .top-inputs {
+        flex-wrap: wrap;
+    }
+
+    .name-input {
+
+        width: 100%;
+
+    }
+
+    .email-input {
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    .footer-section {
+        padding-bottom: 50px;
+    }
+
+    .left-footer {
+        width: 100%;
+        text-align: center;
+    }
+
+    .middle-footer {
+        width: 100%;
+        padding-top: 50px;
+
+
+    }
+
+    .right-footer {
+        width: 100%;
+        padding-top: 50px;
+
+    }
+
+    .footer-section .container {
+        flex-wrap: wrap;
+    }
+
+    .middle-newsletter {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .newsletter1 {
+        width: 100%;
+    }
+
+    .newsletter1 input {
+        width: 100%;
+        padding: 15px 0px 15px 15px;
+
+    }
+
+    .newsletter2 {
+        padding-top: 15px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .email-newsletter-btn {
+        padding: 10px 40px;
+        background-color: var(--accent-color);
+        border: none;
+        color: var(--main-color);
+    }
+
+    .middle-newsletter {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .newsletter1 {
+        width: 100%;
+    }
+
+    .newsletter1 input {
+        width: 100%;
+        padding: 15px 0px 15px 15px;
+
+    }
+
+    .newsletter2 {
+        padding-top: 15px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .email-newsletter-btn {
+        padding: 10px 40px;
+        background-color: var(--accent-color);
+        border: none;
+        color: var(--main-color);
+    }
+
+
+    .header-buttons {
+        
+        flex-wrap: wrap;
+        width: 100%;
+        padding-top: 20px;
+        row-gap: 25px;
+        align-content: center;
+    }
+    
+    
+    .btn1 {
+        width: 100%;
+    }
+    
+    
+    .btn2 {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .btn2:hover i {
+        color: var(--accent-color);
+    }
+    
+    .btn2:hover span {
+        color: var(--accent-color);
+    }
+
+}
+
+@media (max-width: 391px) and (min-width:377px) {
+    .header-section {
+        height: 145vh;
+    }
+
+    .navbar-pages {
+        display: none;
+    }
+
+    .header-content .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-h1 {
+        margin-top: 50px;
+    }
+
+    .header-content-left p {
+        width: 100%;
+    }
+
+    .booking_btn {
+        padding: 15px 25px;
+    }
+
+    .header-buttons {
+        padding-top: 20px;
+    }
+
+    .btn1 {
+        width: 50%;
+    }
+
+    .btn2 {
+        width: 50%;
+        display: flex;
+        align-content: center;
+    }
+
+
+    .chef-cards-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0px;
+        flex-wrap: wrap;
+        row-gap: 50px;
+
+    }
+
+    .chef-card {
+        width: 100%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+        transition: var(--transition-duration);
+        overflow: hidden;
+    }
+
+    .header-h1 {
+        margin-top: 50px;
+    }
+
+    .gallery-column {
+        width: 100%;
+        padding-top: 20px;
+
+    }
+
+    .gallery-section .container {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .address {
+        width: 100%;
+    }
+
+    .phone {
+        width: 100%;
+    }
+
+    .address p {
+        width: 90%;
+    }
+
+    .phone p {
+        width: 100%;
+    }
+
+    .message-inputs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .top-inputs {
+        flex-wrap: wrap;
+    }
+
+    .name-input {
+
+        width: 100%;
+
+    }
+
+    .email-input {
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    .footer-section {
+        padding-bottom: 50px;
+    }
+
+    .left-footer {
+        width: 100%;
+        text-align: center;
+    }
+
+    .middle-footer {
+        width: 100%;
+        padding-top: 50px;
+
+
+    }
+
+    .right-footer {
+        width: 100%;
+        padding-top: 50px;
+
+    }
+
+    .footer-section .container {
+        flex-wrap: wrap;
+    }
+
+    .middle-newsletter {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .newsletter1 {
+        width: 100%;
+    }
+
+    .newsletter1 input {
+        width: 100%;
+        padding: 15px 0px 15px 15px;
+
+    }
+
+    .newsletter2 {
+        padding-top: 15px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .email-newsletter-btn {
+        padding: 10px 40px;
+        background-color: var(--accent-color);
+        border: none;
+        color: var(--main-color);
+    }
+
+    .middle-newsletter {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .newsletter1 {
+        width: 100%;
+    }
+
+    .newsletter1 input {
+        width: 100%;
+        padding: 15px 0px 15px 15px;
+
+    }
+
+    .newsletter2 {
+        padding-top: 15px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .email-newsletter-btn {
+        padding: 10px 40px;
+        background-color: var(--accent-color);
+        border: none;
+        color: var(--main-color);
+    }
+
+
+    .header-buttons {
+        
+        flex-wrap: wrap;
+        width: 100%;
+        padding-top: 20px;
+        row-gap: 25px;
+        align-content: center;
+    }
+    
+    
+    .btn1 {
+        width: 100%;
+    }
+    
+    
+    .btn2 {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .btn2:hover i {
+        color: var(--accent-color);
+    }
+    
+    .btn2:hover span {
+        color: var(--accent-color);
+    }
+
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) and (min-width:392px) {
+
+
+    .header-section {
+        height: 125vh;
+    }
+
+    .navbar-pages {
+        display: none;
+    }
+
+    .header-content .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-h1 {
+        margin-top: 50px;
+    }
+
+    .header-content-left p {
+        width: 100%;
+    }
+
+    .booking_btn {
+        padding: 15px 25px;
+    }
+
+    .header-buttons {
+        padding-top: 20px;
+    }
+
+    .btn1 {
+        width: 50%;
+    }
+
+    .btn2 {
+        width: 50%;
+        display: flex;
+        align-content: center;
+    }
+
+
+    .chef-cards-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0px;
+        flex-wrap: wrap;
+        row-gap: 50px;
+
+    }
+
+    .chef-card {
+        width: 100%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+        transition: var(--transition-duration);
+        overflow: hidden;
+    }
+
+    .header-h1 {
+        margin-top: 50px;
+    }
+
+    .gallery-column {
+        width: 100%;
+        padding-top: 20px;
+
+    }
+
+    .gallery-section .container {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .address {
+        width: 100%;
+    }
+
+    .phone {
+        width: 100%;
+    }
+
+    .address p {
+        width: 90%;
+    }
+
+    .phone p {
+        width: 100%;
+    }
+
+    .message-inputs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .top-inputs {
+        flex-wrap: wrap;
+    }
+
+    .name-input {
+
+        width: 100%;
+
+    }
+
+    .email-input {
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    .footer-section {
+        padding-bottom: 50px;
+    }
+
+    .left-footer {
+        width: 100%;
+        text-align: center;
+    }
+
+    .middle-footer {
+        width: 100%;
+        padding-top: 50px;
+
+
+    }
+
+    .right-footer {
+        width: 100%;
+        padding-top: 50px;
+
+    }
+
+    .footer-section .container {
+        flex-wrap: wrap;
+    }
+
+    .middle-newsletter {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .newsletter1 {
+        width: 100%;
+    }
+
+    .newsletter1 input {
+        width: 100%;
+        padding: 15px 0px 15px 15px;
+
+    }
+
+    .newsletter2 {
+        padding-top: 15px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .email-newsletter-btn {
+        padding: 10px 40px;
+        background-color: var(--accent-color);
+        border: none;
+        color: var(--main-color);
+    }
+
+    .middle-newsletter {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .newsletter1 {
+        width: 100%;
+    }
+
+    .newsletter1 input {
+        width: 100%;
+        padding: 15px 0px 15px 15px;
+
+    }
+
+    .newsletter2 {
+        padding-top: 15px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .email-newsletter-btn {
+        padding: 10px 40px;
+        background-color: var(--accent-color);
+        border: none;
+        color: var(--main-color);
+    }
+
+
+    .header-buttons {
+        
+        flex-wrap: wrap;
+        width: 100%;
+        padding-top: 20px;
+        row-gap: 25px;
+        align-content: center;
+    }
+    
+    
+    .btn1 {
+        width: 100%;
+    }
+    
+    
+    .btn2 {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .btn2:hover i {
+        color: var(--accent-color);
+    }
+    
+    .btn2:hover span {
+        color: var(--accent-color);
+    }
+
+    .social-overlay {
+        height: 50%;
+    }
+    
+
+}
+
+
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 768px) {
+    .header-section {
+        height: 130vh;
+    }
+
+    .navbar-pages {
+        display: none;
+    }
+
+    .header-content .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-h1 {
+
+        margin-top: 50px;
+
+    }
+
+    .header-content-left p {
+        width: 100%;
+
+    }
+
+    .booking_btn {
+
+        padding: 15px 25px;
+
+    }
+
+    .video_btn {
+        margin-left: 30px;
+
+    }
+
+
+    .chef-cards-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0px;
+        flex-wrap: wrap;
+        row-gap: 50px;
+
+    }
+
+    .chef-card {
+        width: 100%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+        transition: var(--transition-duration);
+        overflow: hidden;
+    }
+
+    .gallery-column {
+        width: 100%;
+        padding-top: 20px;
+
+    }
+
+    .gallery-section .container {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .address {
+
+        width: 100%;
+
+    }
+
+    .phone {
+        width: 100%;
+    }
+
+    .address p {
+
+        width: 100%;
+    }
+
+    .phone p {
+
+        width: 100%;
+    }
+
+    .message-inputs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .top-inputs {
+        flex-wrap: wrap;
+    }
+
+    .name-input {
+
+        width: 100%;
+
+    }
+
+    .email-input {
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    .footer-section {
+        padding-bottom: 50px;
+    }
+
+    .left-footer {
+        width: 100%;
+    }
+
+    .middle-footer {
+        width: 100%;
+        padding-top: 50px;
+
+    }
+
+    .right-footer {
+        width: 100%;
+        padding-top: 50px;
+
+    }
+
+    .footer-section .container {
+        flex-wrap: wrap;
+    }
+
+    .middle-newsletter {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .newsletter1 {
+        width: 100%;
+    }
+
+    .newsletter1 input {
+        width: 100%;
+        padding: 15px 0px 15px 15px;
+
+    }
+
+    .newsletter2 {
+        padding-top: 15px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .email-newsletter-btn {
+        padding: 10px 40px;
+        background-color: var(--accent-color);
+        border: none;
+        color: var(--main-color);
+    }
+
+    .header-buttons {
+        
+        flex-wrap: wrap;
+        width: 100%;
+        padding-top: 20px;
+        row-gap: 25px;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    
+   
+    
+    .btn1 {
+        width: 30%;
+    }
+    
+    
+    .btn2 {
+        width: 30%;
+        justify-content: center;
+    }
+    
+    .social-overlay {
+        height: 30%;
+        width: 8%;
+    }
+
+    
+}
+
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .header-section {
+        height: 105vh;
+    }
+
+    .navbar-pages {
+        display: none;
+    }
+
+    .header-content .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-h1 {
+
+        margin-top: 50px;
+
+    }
+
+    .header-content-left p {
+        width: 100%;
+
+    }
+
+    .booking_btn {
+
+        padding: 15px 25px;
+
+    }
+
+
+
+    .chef-cards-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0px;
+        flex-wrap: wrap;
+        row-gap: 50px;
+
+    }
+
+    .chef-card {
+        width: 100%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+        transition: var(--transition-duration);
+        overflow: hidden;
+    }
+
+    .gallery-column {
+        width: 100%;
+        padding-top: 20px;
+
+    }
+
+    .gallery-section .container {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .address {
+
+        width: 100%;
+
+    }
+
+    .phone {
+        width: 100%;
+    }
+
+    .address p {
+
+        width: 100%;
+    }
+
+    .phone p {
+
+        width: 100%;
+    }
+
+    .message-inputs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .top-inputs {
+        flex-wrap: wrap;
+    }
+
+    .name-input {
+
+        width: 100%;
+
+    }
+
+    .email-input {
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    .footer-section {
+        padding-bottom: 50px;
+    }
+
+    .left-footer {
+        width: 100%;
+    }
+
+    .middle-footer {
+        width: 100%;
+        padding-top: 50px;
+
+    }
+
+    .right-footer {
+        width: 100%;
+        padding-top: 50px;
+
+    }
+
+    .footer-section .container {
+        flex-wrap: wrap;
+    }
+
+    .header-buttons {
+        
+        flex-wrap: wrap;
+        width: 100%;
+        padding-top: 20px;
+        row-gap: 25px;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    
+   
+    
+    .btn1 {
+        width: 30%;
+    }
+    
+    
+    .btn2 {
+        width: 30%;
+        justify-content: center;
+    }
+
+    .social-overlay {
+        height: 15%;
+        width: 4%;
+    }
+
+}

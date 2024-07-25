@@ -1,0 +1,53 @@
+:root:has(input:checked) {
+    --main-color: #202020;
+    --secondary-color: #252525;
+    --accent-color: #C17E1F;
+    --text-dark: #ffffff;
+    --secondary-text: #8F9F9F;
+    --box-card-shadow: rgba(100, 100, 111, 0.2) 0px 0px 0px 0px;
+    --hover-accent-color: #D78C23;
+
+
+}
+
+:root:has(input:checked) .chef-card-text {
+    background-color: #171717;
+
+}
+
+:root:has(input:checked) .top-card::before {
+    background-image: url(../images/Component\ 20.svg);
+}
+
+:root:has(input:checked) .navbar {
+    background-color: #171717;
+}
+
+:root:has(input:checked) .address {
+    background-color: #171717;
+}
+
+:root:has(input:checked) .phone {
+    background-color: #171717;
+}
+
+:root:has(input:checked) .message-inputs {
+    background-color: #171717;
+}
+
+:root:has(input:checked) .moon-icon {
+    color: #ffffff;
+}
+
+
+:root:has(input:checked) .sun-icon {
+    color: #ffffff;
+}
+
+:root:has(input:checked) .navbar-sec .moon-icon {
+    opacity: 0;
+}
+
+:root:has(input:checked) .navbar-sec .sun-icon {
+    opacity: 1;
+}
